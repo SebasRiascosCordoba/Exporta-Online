@@ -1,8 +1,10 @@
 # React-init
-Proyecto inicial en React, sin el uso del constructor de react, solamente se utilizan herramientas del nucleo como webpack y babel
+Este proyecto es un aplicativo web para la Camara de Comercio del Valle, denominado Exporta Online producido por Ninus Tecnology.
 
 ## Funcionamiento 📋
-Se utiliza webpack y babel para generar los archivos del cliente, convirtiendo todo el js, jxs, tsx y css en un un solo grupo de archivos para el cliente del navegador
+Se utiliza webpack y babel para generar los archivos del cliente, convirtiendo todo el js, jxs, tsx y css en un un solo grupo de archivos para el cliente del navegador.
+
+Se trabajará con las versiones de react 17.0.2, babel 6.23.0, typescript 4.5.4, webpack 5.62.1
 
 ## Typescript
 Se tiene como lenguaje principal "typescript", el cual es un lenguaje que le agrega un fuerte tipado a todo el codigo, no obstante, se puede aun utilizar el javascript normal
@@ -37,5 +39,4 @@ COMANDOS NPM
 ```bash
   npm run type-check:watch
 ```
-
 
