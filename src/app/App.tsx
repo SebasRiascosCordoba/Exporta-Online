@@ -1,6 +1,7 @@
 
 import React, { useContext, createContext, useState,useEffect  } from "react";
 import './App.css'
+import DashboardComponents from "@app10s/screens/dashboardComponenst/dashboardComponents";
 
 //importación de componentes
 
@@ -31,6 +32,9 @@ export default function App() {
              <div>
                Hellow world reactttt
              </div>
+          </Route>
+          <Route exact path="/components">
+             <DashboardComponents/>
           </Route>
         </Switch>
       </Router>

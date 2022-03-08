@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  /*COLORES GENERALES */
+  --Dark-Violet: #330066;
+  --Violet:#330099;
+  --Violet-UI:#6334C0;
+  --Soft-Violet: #9966CC;
+  --Soft-Violet-ui: #8157D6;
+  --violet-ui:#9966CC;
+  --Soft-Violet-UI:#9966CC;
+  --Light-Violet-UI:#C184FF;
+  --Black:#101010;
+  --Soft-Black:#323338;
+  --Light-Black:#676879;
+  --gray :#969798;
+  --medium-Gray:#A1ACB3;
+  --Light-Gray: #DCDEE7;
+  --soft-Gray:#EDEEF2;
+  --Light:#F2F5F9;
+  --Shadows-gray:#F9F9F9;
+  --White:#fff;
+  --Dark-yellow:#FF9900;
+  --yellow:#FFCC00;
+  --Light-Yellow:#FFCC66;
+  --blue:#0066FF;
+  --Light-blue:#2EA6E8;
+  --Dark-Green:#3a9e76;
+  --Green:#50e4a9;
+  --Light-Green:#87E8C2;
+  --Dark-Red:#be221d;
+  --Red:#fa4943;
+  --Light-red:#FF6F69;
+
+  /*fonst*/
+  --primary-font:'Roboto', sans-serif;
+}
+
+
+/*
+  Clases generales para el uso exclusivo en un texto
+  Solamente contienen el estilo para el texto, no existe estilo de contenedor ni de color
+*/
+.text-Heading1-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  min-width: 0px;
+}
+.text-Heading2-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  min-width: 0px;
+}
+.text-Heading3-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  min-width: 0px;
+}
+.text-Heading4-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  min-width: 0px;
+}
+.text-Paragraph-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  min-width: 0px;
+}
+.text-Paragraph-Medium-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 0px;
+}
+.text-Small-Paragraph-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  min-width: 0px;
+}
+.text-Small-Paragraph-Medium-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  min-width: 0px;
+}
+.text-Small-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  min-width: 0px;
+}
+.text-Small-Bold-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  min-width: 0px;
+}
+.text-label-coreclass{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  min-width: 0px;
+}
+
